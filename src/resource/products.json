@@ -1,0 +1,33 @@
+[
+  {
+    "code": "FR1",
+    "description": "Fruit tea",
+    "price": 3.11,
+    "offers": [
+      {
+        "operator": "%",
+        "quantity": 2,
+        "discountOperator": "/"
+      }
+    ]
+  },
+  {
+    "code": "SR1",
+    "description": "Strawberries",
+    "price": 5,
+    "offers": [
+      {
+        "operator": ">=",
+        "quantity": 3,
+        "discountOperator": "-",
+        "discount": 0.50
+      }
+    ]
+  },
+  {
+    "code": "CF1",
+    "description": "Coffee",
+    "price": 11.23,
+    "offers": []
+  }
+]

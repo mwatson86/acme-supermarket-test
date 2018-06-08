@@ -36,3 +36,31 @@ Test Data:
 
     Basket: SR1, SR1, FR1, SR1
     Total price expected: £16.61
+
+## Installation
+
+```sh
+$ npm install
+```
+
+## Development build
+
+```sh
+$ npm run dev
+```
+
+Open index.html in build folder, and check console for output
+
+## Production build
+
+```sh
+$ npm run build
+```
+
+Open index.html in build folder, and check console for output
+
+## Run tests
+
+```sh
+$ npm test
+```
